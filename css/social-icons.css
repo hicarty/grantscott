@@ -1,0 +1,90 @@
+@font-face {
+    font-family: "monosocialiconsfontregular";
+    src: url(/assets/monosocialicons/monosocialiconsfont-1.10-webfont-aeba6fe16032ce7e6dc5d4796dcc8329d48d984777efd1d2a4b399eba747e77b.eot);
+    src: url(/assets/monosocialicons/monosocialiconsfont-1.10-webfont-aeba6fe16032ce7e6dc5d4796dcc8329d48d984777efd1d2a4b399eba747e77b.eot?#iefix) format("embedded-opentype"),url(/assets/monosocialicons/monosocialiconsfont-1.10-webfont-f24dc759e548ad75ad473e9651c8dbda2901f14375c5775fb7a424d9f0b2be6e.woff2) format("woff2"),url(/assets/monosocialicons/monosocialiconsfont-1.10-webfont-6891d2f6127700b59d5bf87a2f496f5ebf4611e237557c475817f5f067e12bfb.woff) format("woff"),url(/assets/monosocialicons/monosocialiconsfont-1.10-webfont-ac11d3227d4e92d9940a6d2b0d0b6ac63e85178e493b63ec7e9a41fb1c323301.ttf) format("truetype"),url(/assets/monosocialicons/monosocialiconsfont-1.10-webfont-d8654d6a0f5686df7793543ea84f8d6fd78911232257f60164b59cbcebfaf309.svg#monosocialiconsfontregular) format("svg");
+    font-weight: normal;
+    font-style: normal
+}
+
+.social-icon {
+    display: inline-block;
+    vertical-align: top;
+    text-decoration: none;
+    font: 3em "monosocialiconsfontregular"
+}
+
+.social-icon .icon:before {
+    font-family: "monosocialiconsfontregular" !important
+}
+
+.social-icon .icon.twitter:before {
+    content: ""
+}
+
+.social-icon .icon.facebook:before {
+    content: ""
+}
+
+.social-icon .icon.linkedin:before {
+    content: ""
+}
+
+.social-icon .icon.instagram:before {
+    content: ""
+}
+
+.social-icon .icon.twitterbird:before {
+    content: ""
+}
+
+.social-icon .icon.fivehunderpx:before {
+    content: ""
+}
+
+.social-icon .icon.behance:before {
+    content: ""
+}
+
+.social-icon .icon.googleplus:before {
+    content: ""
+}
+
+.social-icon .icon.tumblr:before {
+    content: ""
+}
+
+.social-icon .icon.etsy:before {
+    content: ""
+}
+
+.social-icon .icon.flickr:before {
+    content: ""
+}
+
+.social-icon .icon.vimeo:before {
+    content: ""
+}
+
+.social-icon .icon.pinterest:before {
+    content: ""
+}
+
+.social-icon .icon,.social-icon a.icon:before {
+    font-family: "monosocialiconsfontregular";
+    -webkit-text-rendering: optimizeLegibility;
+    -moz-text-rendering: optimizeLegibility;
+    -ms-text-rendering: optimizeLegibility;
+    -o-text-rendering: optimizeLegibility;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -ms-font-smoothing: antialiased;
+    -o-font-smoothing: antialiased;
+    font-smoothing: antialiased
+}
+
+.social-icon a.icon:before {
+    content: attr(title);
+    margin-right: 0.3em;
+    font-size: 130%
+}
