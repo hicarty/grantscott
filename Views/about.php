@@ -1,3 +1,12 @@
+<?php
+if(!empty($this->payload)) {
+        extract($this->payload);
+    }
+    ob_start();
+    include($this->pathToView);
+    $this->htmlOutput = ob_get_clean();
+?>
+
 <!DOCTYPE html>
 <html prefix="og: http://ogp.me/ns#">
 <head>
