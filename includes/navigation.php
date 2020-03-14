@@ -13,7 +13,7 @@
     <!-- SIDE_TEXT -->
     <div id="vb_info_content">
     <?php if ($CURRENT_PAGE == "Index") { ?>
-        <br><br><br><br>&copy; All images copyright Charles Mooney <?php print date("Y");?>
+        <br><br><br><br>&copy; All images copyright Charles Mooney <?php print(gmdate("Y"));?>
     <?php } ?>
     </div>
 </div>

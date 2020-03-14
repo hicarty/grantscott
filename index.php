@@ -1,1 +1,1 @@
-<?php include("./Views/Shared/_Layout.php");?>
+<?php include("template.php");?>
