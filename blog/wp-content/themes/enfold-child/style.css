@@ -8,4 +8,17 @@
  Version:      1.0.0
 */
  
-@import url("../enfold/style.css");
+.heading-container {
+	color: #bd3a26;
+	font-size: 120px;
+}
+
+.heading-container, h2 {
+	color: #bd3a26;
+	font-size: 120px;
+}
+
+.heading-container h2 {
+	color: #bd3a26;
+	font-size: 120px;
+}
