@@ -4,7 +4,7 @@
 </div>
 
 <!-- MENU -->
-<ul id="vb_menu"><li><a class='<?php if ($CURRENT_PAGE == "Index") {?>active<?php }?>' href="." >Home</a></li><li><a class='<?php if ($CURRENT_PAGE == "Blog") {?>active<?php }?>' href="./blog" >Blog</a></li><li><a class='<?php if ($CURRENT_PAGE == "People") {?>active<?php }?>' href="./people.php" >People</a></li><li><a class='<?php if ($CURRENT_PAGE == "Places and Spaces") {?>active<?php }?>' href="./places-and-spaces.php" >Places and Spaces</a></li><li><a class='<?php if ($CURRENT_PAGE == "Projects") {?>active<?php }?>' href="./projects.php" >Projects</a></li><li><a href="./films.php" target="_blank">Films</a></li><li><a class='<?php if ($CURRENT_PAGE == "About") {?>active<?php }?>' href="./about.php" >About</a></li><li><a class='<?php if ($CURRENT_PAGE == "Contact") {?>active<?php }?>' href="./contact.php" >Contact</a></li></ul>
+<ul id="vb_menu"><li><a class='<?php if ($CURRENT_PAGE == "Index") {?>active<?php }?>' href="." >Home</a></li><li><a class='<?php if ($CURRENT_PAGE == "People") {?>active<?php }?>' href="./people.php" >People</a></li><li><a class='<?php if ($CURRENT_PAGE == "Places and Spaces") {?>active<?php }?>' href="./places-and-spaces.php" >Places and Spaces</a></li><li><a class='<?php if ($CURRENT_PAGE == "Projects") {?>active<?php }?>' href="./projects.php" >Projects</a></li><li><a href="./films.php" target="_blank">Films</a></li><li><a href="./blog" target="_blank">Blog</a></li><li><a class='<?php if ($CURRENT_PAGE == "About") {?>active<?php }?>' href="./about.php" >About</a></li><li><a class='<?php if ($CURRENT_PAGE == "Contact") {?>active<?php }?>' href="./contact.php" >Contact</a></li></ul>
 
 <!-- SIDE -->
 <div id="vb_info_container">
