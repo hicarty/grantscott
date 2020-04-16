@@ -1,4 +1,6 @@
 <?php include("./includes/config.php");?>
+
+<link rel="stylesheet" type="text/css" href="./css/app.css">
 <div class='header'>
     <div class="page_ratio">
     <!-- TITLE -->
@@ -12,5 +14,7 @@
 <!-- body_text -->
 <div class="main_content">
     <div class="vb_album_container"></div>
+    <script src="./lib/three.js"></script>
+    <script src="./js/app.js"></script>
 </div>
 
