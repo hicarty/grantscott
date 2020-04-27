@@ -1,0 +1,14 @@
+Install Laravel: 
+composer create-project laravel/laravel --prefer-dist
+
+Install Ngninx: 
+composer global require laravel/valet
+
+Start Laravel development server: 
+php artisan serve
+
+Start MySQL server:
+mysql.server start
+
+Connect to MySQL server without Homebrew background services:
+mysql -uroot
