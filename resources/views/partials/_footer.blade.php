@@ -35,9 +35,9 @@
   </script>
 <?php } ?>
   
-<script src="./js/scrolling-gallery-bundle.js"></script>
+<script src="{{ URL::to('dist/js/scrolling-gallery-bundle.js') }}"></script>
 <?php if ($CURRENT_PAGE == "Index") { ?>
-    <script src="./js/stats-g-doubleclick.js"></script>
+    <script src="{{ URL::to('dist/js/stats-g-doubleclick.js') }}"></script>
 <?php } ?>
 
 <script id="user-info" type="text/json">

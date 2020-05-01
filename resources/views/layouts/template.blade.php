@@ -9,6 +9,7 @@
 <html prefix="og: http://ogp.me/ns#">
     <head>
         @include('partials/_head-tag-content')
+        <link rel="stylesheet" href="{{ URL::to('css/app.min.css') }}" />
     </head>
     <body id="body" class="page-body">
         

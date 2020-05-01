@@ -1,7 +1,6 @@
 @extends('layouts.template')
 
 @section('content')
-    <link rel="stylesheet" type="text/css" href="./css/app.css">
     <div class='header'>
         <div class="page_ratio">
             <!-- TITLE -->
