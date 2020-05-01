@@ -1,20 +1,22 @@
 @extends('layouts.template')
 
 @section('content')
-  <!-- TITLE -->
-  <div id="vb_title">
-</div>
 
+<div class='header'>
+        <div class="page_ratio">
+            <!-- TITLE -->
+            <div id="vb_title">
+            </div>
 
-  <!-- LOGO -->
-<div id="vb_logo">
-</div>
+            <!-- LOGO -->
+            <div id="vb_logo">
+            </div>
 
+            <!-- MENU -->
+            @include('partials/_nav')
 
-  <!-- MENU -->
-
-<ul id="vb_menu"><li><a  href="/" >Home</a></li><li><a  href="/people" >People</a></li><li><a  href="/places-and-spaces" >Places and Spaces</a></li><li><a  href="/projects" >Projects</a></li><li><a  href="/films" target="_blank">Films</a></li><li><a class='active' href="/about" >About</a></li><li><a  href="/contact" >Contact</a></li></ul>
-
+        </div>
+    </div>
 
   <!-- SIDE -->
 <div id="vb_info_container">
@@ -25,7 +27,6 @@
     
   </div>
 </div>
-
 
   <!-- BODY_TEXT -->
   <div class="main_content">
