@@ -1,0 +1,215 @@
+.html_header_transparency #top #holding-page {
+    background-color: #a0d4d5 !important;
+    background-size: 1740px;
+    background-position: center -78px !important;
+    transition: all 3s linear 0s;
+    animation-name: background;
+    animation-duration: 12s;
+    animation-delay: 3s;
+    animation-iteration-count: infinite
+}
+
+.html_header_transparency #top #holding-page:nth-of-type(2n) {
+    padding-bottom: 200px
+}
+
+.html_header_transparency #top #holding-page.avia-section .template-page {
+    padding-top: 0;
+    padding-bottom: 0
+}
+
+.html_header_transparency #top #holding-page.avia-section .template-page .clearfix:before {
+    display: none
+}
+
+.html_header_transparency #top #holding-page.avia-builder-el-0 .container {
+    padding-top: 50px
+}
+
+.html_header_transparency #top #holding-page .scroll-down-link {
+    top: 85vh
+}
+
+.html_header_transparency #top #holding-page .svg-logo .svg-logo-container {
+    margin: 0 auto;
+    max-width: 380px;
+    margin-bottom: 120px
+}
+
+.html_header_transparency #top #holding-page .svg-logo .svg-logo-container svg path {
+    fill: #ec81b0;
+    transition: all 3s linear 0s;
+    animation-name: logo;
+    animation-duration: 12s;
+    animation-delay: 3s;
+    animation-iteration-count: infinite
+}
+
+.html_header_transparency #top #holding-page .contact-us-container {
+    margin-bottom: 60px
+}
+
+.html_header_transparency #top #holding-page .contact-us-container .contact-us-button {
+    margin: 0 auto
+}
+
+.html_header_transparency #top #holding-page .svg-cheeki-tikki-logo .svg-cheeki-tikki-logo-container {
+    margin: 0 auto;
+    max-width: 133px;
+    margin-bottom: 30px
+}
+
+.html_header_transparency #top #holding-page .svg-cheeki-tikki-logo .svg-cheeki-tikki-logo-container svg path.cls-1 {
+    fill: #1d1d1b;
+    animation-name: tikki;
+    animation-duration: 12s;
+    animation-delay: 3s;
+    animation-iteration-count: infinite
+}
+
+.html_header_transparency #top #holding-page .flex_food_and_coctails {
+    transform: translateY(-10px)
+}
+
+.html_header_transparency #top #holding-page .highlighted-link {
+    background-image: url('/wp-content/uploads/2018/08/white-highlighter.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%
+}
+
+.html_header_transparency #top #holding-page .highlighted-header {
+    background-image: url('/wp-content/uploads/2018/08/white-highlighter.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 165%;
+    border-radius: 13px
+}
+
+.html_header_transparency #top #holding-page .contact-icon svg {
+    display: inline;
+    margin-right: 5px
+}
+
+.html_header_transparency #top #holding-page .contact-icon.contact-information-call svg {
+    height: 27px;
+    transform: translateY(9px)
+}
+
+.html_header_transparency #top #holding-page .contact-icon.contact-information-location {
+    margin-top: 5px
+}
+
+.html_header_transparency #top #holding-page .contact-icon.contact-information-location svg {
+    height: 27px;
+    transform: translateY(3px);
+    float: left;
+    margin-bottom: 35px
+}
+
+.html_header_transparency #top #holding-page .contact-icon.contact-information-location a {
+    float: left;
+    line-height: 150%
+}
+
+.html_header_transparency #top #holding-page .contact-icon.contact-information-email svg {
+    height: 20px;
+    transform: translateY(4px)
+}
+
+.html_header_transparency #top #holding-page .contact-icon .anchor-tag {
+    display: inline
+}
+
+@keyframes background {
+    0% {
+        background-color: #a0d4d5
+    }
+
+    25% {
+        background-color: #EC81B0
+    }
+
+    50% {
+        background-color: #ec7168
+    }
+
+    75% {
+        background-color: #EC81B0
+    }
+
+    100% {
+        background-color: #a0d4d5
+    }
+}
+
+@keyframes logo {
+    0% {
+        fill: #ec81b0
+    }
+
+    25% {
+        fill: #A0D4D5
+    }
+
+    50% {
+        fill: #7dbf83
+    }
+
+    75% {
+        fill: #A0D4D5
+    }
+
+    100% {
+        fill: #ec81b0
+    }
+}
+
+@keyframes tikki {
+    0% {
+        fill: #1d1d1b
+    }
+
+    25% {
+        fill: #F6EDA1
+    }
+
+    50% {
+        fill: #f6eda1
+    }
+
+    75% {
+        fill: #F6EDA1
+    }
+
+    100% {
+        fill: #1d1d1b
+    }
+}
+
+@media only screen and (max-width: 990px) {
+    .responsive #top .container .av-content-small,.responsive #top #wrap_all .flex_column,.responsive #top #wrap_all .av-flex-cells .no_margin {
+        margin:0;
+        margin-bottom: 20px;
+        width: 100%
+    }
+
+    #top #holding-page .highlighted-header {
+        width: 230px
+    }
+
+    #main .main_color h2 {
+        text-align: left;
+        margin-top: 60px
+    }
+
+    .responsive #top #wrap_all .flex_column.flex_loveshackbar_coming_soon {
+        margin-top: 0;
+        margin-bottom: 10px
+    }
+
+    .responsive #top #wrap_all .flex_column.flex_loveshackbar_coming_soon h2 {
+        margin-top: 0;
+        margin-bottom: 0
+    }
+}
