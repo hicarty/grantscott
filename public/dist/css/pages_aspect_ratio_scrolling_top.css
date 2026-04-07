@@ -1,0 +1,3 @@
+#vb_page.page_scaling_top_yes.menu_position_top:not(.page_full_width_yes) .page_ratio {
+    max-width: 115vh !important
+}
