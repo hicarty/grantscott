@@ -1,18 +1,19 @@
 <?php
 
+use App\Http\Controllers\PortfolioController;
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\PageController;
 
-/*
-|--------------------------------------------------------------------------
-| Web Routes
-|--------------------------------------------------------------------------
-|
-| Here is where you can register web routes for your application. These
-| routes are loaded by the RouteServiceProvider within a group which
-| contains the "web" middleware group. Now create something great!
-|
-*/
+Route::controller(PortfolioController::class)->group(function () {
+    Route::get('/', 'home')->name('home');
+    Route::get('/clients', 'clients')->name('clients');
+    Route::get('/about', 'about')->name('about');
+    Route::get('/contact', 'contact')->name('contact');
+    Route::get('/album/{album}', 'album')->name('album')->where('album', '[a-z0-9-]+');
+    Route::get('/placeholder/{album}/{number}.svg', 'placeholder')->name('placeholder')
+        ->where(['album' => '[a-z0-9-]+', 'number' => '[0-9]+']);
+    Route::get('/sitemap.xml', 'sitemap')->name('sitemap');
 
-Route::get('/', [PageController::class, 'show'])->name('home');
-Route::get('/{page}', [PageController::class, 'show'])->where('page', 'about|contact|projects|people|places-and-spaces|films');
+    // Portfolio sections (/suits, /knitwear, /e-commerce) come from config/portfolio.php.
+    Route::get('/{category}', 'category')->name('category')
+        ->whereIn('category', array_keys(config('portfolio.categories', [])));
+});
